@@ -1,52 +1,94 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
+    <!-- Configuración básica del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Cola Larga respondemos a la pregunta exacta del usuario -->
-    <title>¿Qué es la Lectura Fácil y para qué sirve? | LectuRubí</title>
-    
-    <!-- 2. META DESCRIPCION-->
-    <meta name="description" content="Descubre qué es la lectura fácil, sus beneficios y ejemplos de cómo los textos adaptados y pictogramas ayudan a personas con dificultades de comprensión.">
-    
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; }
-        header { background-color: #dc278d; color: white; padding: 3rem 0; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5rem; }
-        main { padding: 3rem 2rem; max-width: 800px; margin: 0 auto; text-align: left; line-height: 1.6; }
-        .btn { display: inline-block; padding: 12px 24px; background-color: #a50670; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; font-weight: bold; text-align: center; }
-        .btn:hover { background-color: #f03c9c; }
-        .center-btn { text-align: center; margin-top: 2rem; }
-        footer { text-align: center; padding: 1.5rem 0; background-color: #e0e0e0; margin-top: 2rem; }
-    </style>
+    <title>Què és la lectura fàcil? - LectuRubí</title>
+    <!-- Vincula la misma hoja de estilos de la página principal -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Barra superior de aviso -->
+    <div class="top-bar">
+        Llibres que obren portes a la imaginació i a l'autonomia
+    </div>
+
+    <!-- Navegación principal -->
     <header>
-        <!--  H1-->
-        <h1>¿Qué es la lectura fácil?</h1>
-    </header>
-    
-    <main>
-        <!--  PARRAFO INTRODUCTORIO-->
-        <p>La <strong>lectura fácil</strong> es una forma de crear y adaptar documentos para que sean mucho más sencillos de entender. Es una herramienta fundamental de accesibilidad cognitiva.</p>
-
-        <!--  H2  -->
-        <h2>¿A quién van dirigidos los libros adaptados?</h2>
-        <p>Estos materiales están diseñados pensando en personas con discapacidad intelectual, trastornos del aprendizaje (como la dislexia), personas mayores con deterioro cognitivo, o incluso aquellos que están aprendiendo un nuevo idioma. Su objetivo es garantizar el derecho a la información y a la cultura para todos.</p>
-
-        <h2>Ejemplos de adaptación y pictogramas</h2>
-        <p>Un texto en lectura fácil suele tener frases cortas, lenguaje directo, evitar metáforas complejas y, en el caso de los cuentos infantiles o materiales educativos, apoyarse visualmente en <strong>pictogramas</strong>. Estos dibujos sencillos acompañan a las palabras para facilitar la comprensión de la historia.</p>
-
-        <!--  ENLAZADO INTERNO para volver a la pagina principal -->
-        <div class="center-btn">
-            <p>¿Buscas material adaptado para educadores o familias?</p>
-            <a href="index.html" class="btn">Volver al catálogo de LectuRubí</a>
+        <div class="logo">
+            <div class="logo-icon">📖</div>
+            <div>
+                <div class="logo-text">LectuRubí</div>
+                <div class="logo-sub">Llibres de lectura fàcil</div>
+            </div>
         </div>
+        <nav>
+            <!-- Estos enlaces ahora apuntan a index.html para volver a la portada -->
+            <a href="index.html#llibres">Els nostres llibres</a>
+            <a href="index.html#nosaltres">Sobre nosaltres</a>
+            <a href="index.html#contacte">Contacta'ns</a>
+        </nav>
+        <a href="index.html#contacte" class="btn-primary">Vine a conèixer-nos</a>
+    </header>
+
+    <!-- Contenedor principal del artículo estilo blog -->
+    <main style="padding: 60px 5%; max-width: 800px; margin: 0 auto; line-height: 1.8;">
+        
+        <!-- Encabezado del artículo -->
+        <p class="section-subtitle" style="text-align: center; margin-bottom: 10px;">Accessibilitat Cognitiva</p>
+        <h1 style="text-align: center; font-size: 3rem; margin-bottom: 40px; color: var(--text-primary);">Què és la lectura fàcil?</h1>
+
+        <p style="font-size: 1.125rem; margin-bottom: 30px; color: var(--text-dark);">
+            La <strong>lectura fàcil</strong> és una forma de crear i adaptar documents perquè siguin molt més senzills d'entendre. És una eina fonamental d'accessibilitat cognitiva.
+        </p>
+
+        <!-- Sección 1 -->
+        <h2 style="font-size: 2rem; margin-top: 40px; margin-bottom: 20px;">A qui van dirigits els llibres adaptats?</h2>
+        <p style="margin-bottom: 20px;">
+            Aquests materials estan dissenyats pensant en persones amb discapacitat intel·lectual, trastorns de l'aprenentatge (com la dislèxia), persones grans amb deteriorament cognitiu, o fins i tot aquelles que estan aprenent un nou idioma. El seu objectiu és garantir el dret a la informació i a la cultura per a tothom.
+        </p>
+
+        <!-- Sección 2 -->
+        <h2 style="font-size: 2rem; margin-top: 40px; margin-bottom: 20px;">Exemples d'adaptació i pictogrames</h2>
+        <p style="margin-bottom: 40px;">
+            Un text en lectura fàcil sol tenir frases curtes, llenguatge directe, evitar metàfores complexes i, en el cas dels contes infantils o materials educatius, recolzar-se visualment en <strong>pictogrames</strong>. Aquests dibuixos senzills acompanyen les paraules per facilitar la comprensió de la història.
+        </p>
+
+        <!-- Caja de llamada a la acción (Call to Action) -->
+        <div style="background-color: var(--topbar-bg); padding: 40px; border-radius: 1.5rem; text-align: center; margin-top: 50px;">
+            <p style="font-size: 1.125rem; font-weight: bold; color: var(--text-primary); margin-bottom: 20px;">
+                Busques material adaptat per a educadors o famílies?
+            </p>
+            <!-- Botón para regresar al catálogo principal -->
+            <a href="index.html#llibres" class="btn-primary">Tornar al catàleg de LectuRubí</a>
+        </div>
+        
     </main>
-    
-    <footer>
-        <p>&copy; 2026 LectuRubí. Todos los derechos reservados.</p>
+
+    <!-- Sección final y mapa de contacto (Idéntico a la portada) -->
+    <footer id="contacte" class="contact-section" style="margin-top: 60px;">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p class="section-subtitle text-light-pink">Contacta'ns</p>
+                <h2>Vine a visitar-nos.</h2>
+                <p class="footer-desc">Estarem encantats d'ajudar-te a trobar una lectura que t'acompanyi.</p>
+                
+                <div class="contact-details">
+                    <p>📍 Carrer de la Lectura, 12 - Rubí</p>
+                    <p>📞 912 345 678</p>
+                    <p>✉️ hola@lecturubi.es</p>
+                </div>
+            </div>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.3787723926834!2d2.02989107659556!3d41.48833489025091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a492d536c97a87%3A0x6b84ba0b5220c3a2!2sRub%C3%AD%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 LectuRubí · Llibres de lectura fàcil per a tothom</p>
+        </div>
     </footer>
+
 </body>
 </html>
