@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mariadelcielocasasalum-sketch.github.io/web-libreria/sitemap.xml
